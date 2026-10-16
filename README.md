@@ -83,7 +83,7 @@ It uses your Python 3.10–3.14 if you have one. Otherwise it downloads a privat
 
 ### Releases (GitHub Actions)
 `.github/workflows/build-mac.yml` builds on GitHub's Apple Silicon (`macos-15`) and Intel (`macos-15-intel`) Macs.
-- Push a tag to publish a release with both `.dmg` files: `git tag v1.0.0 && git push origin v1.0.0`
+- To publish a release with both `.dmg` files, change the number in `VERSION` (e.g. `1.1.0`) and push to `main`. Pushing a tag like `v1.1.0` works too.
 - Or use **Actions → Build Mac app → Run workflow** for a test build. The `.dmg` files are under the run's Artifacts.
 
 ### Files
