@@ -1,0 +1,21 @@
+# Never commit documents or personal settings
+*.pdf
+always_redact.txt
+
+# Build output and tools (the app goes on the Releases page, not in git)
+build/
+dist/
+*.dmg
+*.app/
+icon.icns
+icon.iconset/
+.build-venv/
+.uv-python/
+.uv-tool/
+
+# Python / OS clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

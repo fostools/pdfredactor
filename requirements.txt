@@ -1,0 +1,4 @@
+pymupdf>=1.25
+spacy>=3.7
+zxing-cpp>=2.2
+numpy
